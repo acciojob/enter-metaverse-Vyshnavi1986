@@ -8,12 +8,12 @@
 <body>
 
   <p id="message">Enter the Metaverse</p>
-  <button id="updateButton">Click to Enter</button>
+  <button id="enterBtn">Click to Enter</button>
 
   <script>
     // Get references to the paragraph and the button
     const messageParagraph = document.getElementById('message');
-    const updateButton = document.getElementById('updateButton');
+    const enterBtn = document.getElementById('enterBtn');
 
     // Function to handle button click event
     function handleClick() {
@@ -22,7 +22,7 @@
     }
 
     // Attach the handleClick function to the button's click event
-    updateButton.addEventListener('click', handleClick);
+    enterBtn.addEventListener('click', handleClick);
   </script>
 
 </body>
