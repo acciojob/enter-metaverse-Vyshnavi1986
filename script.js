@@ -1,8 +1,3 @@
-//your JS code here. If required.
-//your JS code here. If required.
-const para = document.getElementById('status');
-function buttonClick(){
-	const head = document.createElement("h1");
-	para.innerText="Entered Metaverse";
-	head.innerText = para.innerText;
+function enter(){
+	document.getElementById('status').innerHTML = '<h1>Entered Metaverse</h1>';
 }
